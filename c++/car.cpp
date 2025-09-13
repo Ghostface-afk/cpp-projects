@@ -16,7 +16,7 @@ int main() {
     }
     
     else if (car == "JEEP")
-    {
+    { 
         cout << "Your price to pay is $2500"<< endl;
     }
     else if (car == "Audi")
