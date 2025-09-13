@@ -6,6 +6,8 @@ int main(){
     int age;// declaration
     age = 21; //assignment
     int year = 2025;
+
+    
     string vote ="Able to vote";
 
     cout << age << endl;
