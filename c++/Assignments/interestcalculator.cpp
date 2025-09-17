@@ -9,14 +9,13 @@ using namespace std;
 
 // Function prototype
 float s_interest;
-float discount(float principal, float final_price);
+float discount(float principal);
 float simple_interest(float principal, int rate, int time);
 
 int main(){
     //function call
     float principal;
     float final_price;
-    float discount;
     cout << "Enter principal amount: ";
     cin >> principal;
 
@@ -30,6 +29,12 @@ int main(){
 
     s_interest = simple_interest(principal, rate, time);
     cout << "Simple Interest is: " << s_interest << endl;
+
+     // Call discount function
+     
+    float disc = discount(principal);
+    cout << "Discount offered is: " << disc << endl;
+
     return 0;
 }
 
@@ -42,25 +47,23 @@ float simple_interest(float principal, int rate, int time){
 }
 
 //discount 
-float discount(float principal, float final_price){
-     
-    float discount;
+float discount(float principal){
+
+   float disc = 0.0, final_price = principal;
      if(principal >= 5000){
-        discount = principal * 0.1;
-        final_price = principal - discount;
+        disc = principal * 0.1;
+        final_price = principal - disc;
     }
     else if(principal >= 1000){
-        discount = principal * 0.05;
-        final_price = principal - discount;
+        disc = principal * 0.05;
+        final_price = principal - disc;
     }
     else{
         cout<<"No discount applicable"<<endl;
     }
 
      cout << "Final price after discount: " << final_price << endl;
-     cout<<"Discount is: "<< discount <<endl;
 
-
-     return discount;
+     return disc;
 
      }

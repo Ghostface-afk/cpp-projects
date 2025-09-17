@@ -30,8 +30,3 @@ int main(){
     return 0;
 }
 
-float discount (float principal, int rate){
-
-    float principal;
-    float discount;
-}
