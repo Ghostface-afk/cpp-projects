@@ -1,7 +1,7 @@
 /*
 Name :Lawrence
 Admission Number :BCS-03-0052/2025
-Description : Program to calclate simple interest
+Description : THIS IS PRACTISE CHECK THE OTHER ONE.
 */
 #include <iostream>
 
