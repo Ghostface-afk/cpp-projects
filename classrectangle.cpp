@@ -1,3 +1,6 @@
+//name:Lawrence
+//Adm no: BCS-03-0052/2025
+//description: This program defines a base class Shape and derived classes Rectangle and Circle. It demonstrates inheritance, encapsulation, and polymorphism by calculating and displaying the area of each shape along with its color.
 #include <iostream>
 #include <string>
 #include <cmath>   // for M_PI
