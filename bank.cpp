@@ -1,3 +1,6 @@
+//name:Lawrence
+//Admission Number: BCS-03-0052/2025
+//Detail: Banking System using encapsulation
 #include <iostream>
 using namespace std;
 
