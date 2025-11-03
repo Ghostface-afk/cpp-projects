@@ -1,4 +1,5 @@
-
+//name: lawrence odanga
+//adm no: bcs-03-0052/2025
 //Member variables and member functions in C++
 
 #include <iostream>

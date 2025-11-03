@@ -1,3 +1,5 @@
+//name: lawrence odanga
+//adm no: bcs-03-0052/2025
 #include <iostream>
 using namespace std;
 class employee {
