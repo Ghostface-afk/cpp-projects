@@ -20,7 +20,6 @@ int main() {
     lp.processLoan(10000);
     lp.processLoan(15000.50, 5.5);
     lp.processLoan("John Doe", 20000, 10);
-
-
+    
     return 0;
 }
